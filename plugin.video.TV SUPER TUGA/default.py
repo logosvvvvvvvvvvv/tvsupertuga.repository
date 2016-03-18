@@ -70,11 +70,11 @@ def make_request(url):
 def main():
 	add_dir('[B]<<<  SEARCH  >>>[/B]', 'searchlink', 99, icon, fanart)
 	if len(online_m3u) > 0:	
-		add_dir('[COLOR yellow][B]>> ONLINE M3U <<[/B][/COLOR]', u_tube, 2, icon, fanart)
+		add_dir('[COLOR yellow][B]>> JJJJJJ M3U <<[/B][/COLOR]', u_tube, 2, icon, fanart)
 	if len(local_m3u) > 0:	
-		add_dir('[COLOR magenta][B]>> LOCAL M3U <<[/B][/COLOR]', u_tube, 3, icon, fanart)
+		add_dir('[COLOR magenta][B]>> GGGGGG M3U <<[/B][/COLOR]', u_tube, 3, icon, fanart)
 	if len(online_xml) > 0:	
-		add_dir('[COLOR cyan][B]>> ONLINE XML <<[/B][/COLOR]', u_tube, 4, icon, fanart)
+		add_dir('[COLOR cyan][B]>> GGGGG XML <<[/B][/COLOR]', u_tube, 4, icon, fanart)
 	if len(local_xml) > 0:	
 		add_dir('[COLOR lime][B]>> LOCAL XML <<[/B][/COLOR]', u_tube, 5, icon, fanart)		
 	if (len(online_m3u) < 1 and len(local_m3u) < 1 and len(online_xml) < 1 and len(local_xml) < 1 ):		
