@@ -70,14 +70,16 @@ def make_request(url):
 def main():
 	add_dir('[B]<<<  SEARCH  >>>[/B]', 'searchlink', 99, icon, fanart)
 	if len(online_m3u) > 0:	
-		add_dir('[COLOR yellow][B]>> JJJJJJ M3U <<[/B][/COLOR]', u_tube, 2, icon, fanart)
+		add_dir('[COLOR yellow][B]>> JJJJJJ H <<[/B][/COLOR]', u_tube, 2, icon, fanart)
+		add_dir('[COLOR yellow][B]>> HHHHH <<[/B][/COLOR]', u_tube, 5, icon, fanart)
+		add_dir('[COLOR yellow][B]>> DDDDDD <<[/B][/COLOR]', u_tube, 6, icon, fanart)
 	if len(local_m3u) > 0:	
 		add_dir('[COLOR magenta][B]>> GGGGGG M3U <<[/B][/COLOR]', u_tube, 3, icon, fanart)
 	if len(online_xml) > 0:	
 		add_dir('[COLOR cyan][B]>> GGGGG XML <<[/B][/COLOR]', u_tube, 4, icon, fanart)
 	if len(local_xml) > 0:	
 		add_dir('[COLOR lime][B]>> LOCAL XML <<[/B][/COLOR]', u_tube, 5, icon, fanart)		
-	if (len(online_m3u) < 1 and len(local_m3u) < 1 and len(online_xml) < 1 and len(local_xml) < 1 ):		
+	if (len(online_m3u) < 1 and len(local_m3u) < 1 and len(online_xml) < 1 and len(local_xml) < 1 ):
 		mysettings.openSettings()
 		xbmc.executebuiltin("Container.Refresh")		
 
@@ -278,11 +280,14 @@ elif mode == 2:
 elif mode == 3:
 	m3u_local()
 	
+elif mode == 6:
+	m3u_online()	
+	
 elif mode == 4:
 	xml_online()
 	
 elif mode == 5:
-	xml_local()	
+	m3u_local ()	
 
 elif mode == 99:
 	search()

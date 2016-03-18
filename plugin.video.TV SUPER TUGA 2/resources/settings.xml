@@ -7,9 +7,9 @@
 		<setting label="[B]Minha XML Local[/B]" type="file"  id="local_xml" default="" />
 	</category>
 	<category label="[COLOR red][B]Listas myIPTVChannels[/B][/COLOR]">
-		<setting label="[B]MUSICA[/B]" type="text"  id="online_m3u" default="http://bit.ly/1IxL5qr" />
-		<setting label="[B]FILMES[/B]" type="text"  id="filmes_m3u" default="http://bit.ly/1mlrIqg" />			
-		<setting label="[B]INFANTIL[/B]" type="text"  id="infantil_m3u" default="http://bit.ly/1mJjjgR" />
+		<setting label="[B]TV SUPER TUGA[/B]" type="text"  id="TUGA_m3u" default="http://bit.ly/1S7rwGl" />
+		<setting label="[B]WORLD SPORTS CHANNELS[/B]" type="text"  id="SPORTS_m3u" default="http://bit.ly/1XzlOhW" />			
+		<setting label="[B]INFANTIL[/B]" type="text"  id="infantil_m3u" default="http://bit.ly/1Z7BN87" />
 		<setting label="[B]NASA[/B]" type="text"  id="nasa_m3u" default="http://bit.ly/1Jbsz7e" />
 		<setting label="[B]NOTICIAS[/B]" type="text"  id="noticias_m3u" default="http://bit.ly/1YLrGnQ" />
 		<setting label="[B]PORTUGAL[/B]" type="text"  id="pt_m3u" default="http://bit.ly/1QQKXoN" />
