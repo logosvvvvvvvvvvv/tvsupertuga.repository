@@ -93,22 +93,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.surikata" name="surikata TV" version="0.0.8" provider-name="Discave">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="player.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>A tua lista de IPTV</summary>
-        <description>Junta-te a nos, no GitHub em https://github.com/adrianoafonso/myIPTVchannels, adiciona, edita, faz esta lista ser tua tambem. Comenta em https://www.facebook.com/groups/listasiptv/</description>
-		<disclaimer lang="pt">Nenhum dos intervenientes difunde, retransmite qualquer canal exposto, nem obtem quaisquer rendimentos do trabalho elaborado</disclaimer>
-
-	</extension>
-</addon>
-
 <addon id="plugin.video.TV SUPER TUGA" name="TV SUPER TUGA" version="0.0.4" provider-name="TV SUPER TUGA">
     <requires>
     </requires>
@@ -143,6 +127,29 @@
 	- Kids Youtube (Canais do Youtube)
 	Todo o conteÃºdo Ã© da autoria dos site, qualquer problema com direitos de autor deve ser dirigido aos mesmos.
 	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvsupertuga" name="TV SUPER TUGA" version="1.0.0" provider-name="tvsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV SUPER TUGA</summary>
+    <description lang="en">tvsupertuga</description>
     <platform>all</platform>
   </extension>
 </addon>
