@@ -60,7 +60,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "Streamlivetv ", "url": "http://pastebin.com/raw/md9Xuwn6", "fanart": "http://1920x1080hdwallpapers.com/image/201505/music/1572/guitar-ocean-wave-balloon-spray.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "https://raw.githubusercontent.com/djlopesdacosta/M3U/master/icon.png"}]
+SOURCES = [{"title": "Streamlivetv ", "url": "http://bit.ly/1q3L9djjdjjdjdjjdjdjdjdjdueueehejh666326264gygghgdshggghsgdghsgdsghshggsghghufurrtetuw67436trggfhjgghjhjgf664gfgghjghjsjgfgjgghghjshggskjjggfgyug7r64t6r36tfgyguyufgguvgyuygfgvgcsgduyguygfyuuireuiogvguvygWz", "fanart": "http://1920x1080hdwallpapers.com/image/201505/music/1572/guitar-ocean-wave-balloon-spray.jpg", "genre": "IPTV TELEVISION", "date": "10.17.2015", "credits": "Streamlivetv", "thumbnail": "https://raw.githubusercontent.com/djlopesdacosta/M3U/master/icon.png"}]
 
 # http://www.technobuffalo.com/wp-content/uploads/2016/02/tim-peake-photos-003.jpg
 # https://raw.githubusercontent.com/djlopesdacosta/M3U/master/icon.png
