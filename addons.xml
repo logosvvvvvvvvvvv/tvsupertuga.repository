@@ -1,159 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.funvideos" name="Fun Videos" version="0.3.1" provider-name="Mafarricos">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-	<import addon="script.module.requests" version="2.4.3"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Fun Videos</summary>
-    <description lang="en">VisualizaÃ§Ã£o de videos engraÃ§ados dos sites:
-	http://www.9gag.tv
-	http://www.tabonito.pt
-	http://www.tafixe.com
-	http://vitaminl.tv
-	http://www.tabrutal.pt
-	http://www.bestofyoutube.com
-	http://www.jacarebanguela.com.br
-	http://www.galofrito.com.br
-	http://www.viralviralvideos.com
-	http://obutecodanet.ig.com.br
-	http://www.embrulha.com
-	http://loladatuga.com
-	http://tugavideos.com
-	http://www.break.com
-	</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.teammaniac" name="Team ManiaC Repository" version="1.0.0" provider-name="[COLOR blue][B]AMO[/B][/COLOR][COLOR green]box[/COLOR]">
-	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
-		<info compressed="false">http://raw.github.com/AMObox/teammaniac/master/addons.xml</info>
-		<checksum>http://raw.github.com/AMObox/teammaniac/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/AMObox/teammaniac/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Team Maniac Addons</summary>
-		<description>Team Maniac Installer</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.streamajoker" name="Stream a Joker" version="0.6.4" provider-name="Mafarricos">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.joker"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="plugin.video.streamBeta" name="StreamBeta" version="1.4.8b" provider-name="brysonreece/Mafarricos">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <website>http://stream.brysonreece.com/</website>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <summary lang="en">Seamlessly watch content from across the internet.</summary>
-        <description lang="en">Enjoy a variety of content, from your favorite TV shows to the latest movies!</description>
-    </extension>
-</addon>
-
-<addon id="plugin.video.TV SUPER TUGA" name="TV SUPER TUGA" version="0.0.4" provider-name="TV SUPER TUGA">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Links available in search free on the Internet I am not responsible for your useLinks Disponiveis em pesquisa livre na Internet nao me responsabilizo pelo uso dos mesmos</summary>
-        <description>IPTV</description>
-    </extension>
-</addon>
-
-<addon id="plugin.video.videosinfantis" name="Videos Infantis" version="0.4.4" provider-name="Mafarricos">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="2.1.2"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Videos Infantis</summary>
-    <description lang="en">
-	VisualizaÃ§Ã£o dos videos dos sites:
-	- http://videosinfantis.pt
-	- http://videos.ogatodasbotas.com
-	- http://www.canalpanda.pt (crÃ©ditos para enen92)
-	- Kids Youtube (Canais do Youtube)
-	Todo o conteÃºdo Ã© da autoria dos site, qualquer problema com direitos de autor deve ser dirigido aos mesmos.
-	</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.xbmctorrentV2" name="XBMCtorrentV2" version="1.0.0" provider-name="steeve/Mafarricos">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.mafarricos.xbmc" name="Mafarricos repositorio" version="1.0.5" provider-name="Mafarricos">
-	<extension point="xbmc.addon.repository" name="Mafarricos Add-on Repository">
-		<info compressed="false">http://raw.github.com/Mafarricos/Mafarricos-xbmc-addons/master/addons.xml</info>
-		<checksum>http://raw.github.com/Mafarricos/Mafarricos-xbmc-addons/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/Mafarricos/Mafarricos-xbmc-addons/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio Mafarricos</summary>
-		<description>Addons de Mafarricos, contacto: MafaStudios@gmail.com</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.mafarricosModded.xbmc" name="Mafarricos Modded repositorio" version="1.0.1" provider-name="Mafarricos">
-	<extension point="xbmc.addon.repository" name="Mafarricos Modded Add-on Repository">
-		<info compressed="false">http://raw.github.com/Mafarricos/Mafarricos-modded-xbmc-addons/master/addons.xml</info>
-		<checksum>http://raw.github.com/Mafarricos/Mafarricos-modded-xbmc-addons/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/Mafarricos/Mafarricos-modded-xbmc-addons/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio de Addons Modificados por Mafarricos</summary>
-		<description>Addons Modificados por Mafarricos, contacto: MafaStudios@gmail.com</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="service.autosubsBeta"
     name="AutoSubs (Unofficial)" version="1.0.5" provider-name="schumi2004,Mafarricos">
   <requires>
@@ -220,17 +66,36 @@
   </extension>
 </addon>
 
-<addon id="tvsupertuga.repository" name="tvsupertuga.repository" version="0.0.2" provider-name="djlopesdacosta">
-	<extension point="xbmc.addon.repository" name="tvsupertuga.repository">
-		<info compressed="false">https://raw.githubusercontent.com/djlopesdacosta/tvsupertuga.repository/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/djlopesdacosta/tvsupertuga.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/djlopesdacosta/tvsupertuga.repository/tree/master/repo</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Tutorial Addon</summary>
-		<description>Addon Description</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon id="plugin.video.Streamlivetv" name="[COLOR red]TVsupertuga[/COLOR]" version="0.0.1" provider-name="TVsupertuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]TV-SUPERTUGA[/COLOR][COLOR yello]Add-on 2016[/COLOR] basado en LivetreamsPro   </summary>
+    <description lang="en">[COLOR blue][B]NEW LIST OF CHANNELS FOR IPTV AND PLAYLIST KODI.
+
+	                        Welcome to TVsupertuga
+
+All these streams can be easily found over the internet...
+We do not have any server or broadcast any kind of signal...
+All these streams are the result of many hours
+of research over the Internet.
+CHANNELS REQUESTS OR MORE INFORMATION PLEASE
+SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 </addons>
