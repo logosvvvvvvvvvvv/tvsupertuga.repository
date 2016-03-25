@@ -51,9 +51,28 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
 </addon>
 
+
+<addon id="plugin.video.kmediatorrent" name="KMediaTorrent" version="2.3.7" provider-name="jmarth">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.requests" version="2.3.5"/>
+        <import addon="script.module.html5lib" version="0.999.0" optional="false"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary><![CDATA[Torrent streaming
+        for KODI/XBMC.]]></summary>
+        <description><![CDATA[Watch torrents directly from KODI/XBMC, without waiting.]]></description>
+    </extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.03.06"
+  version="2016.3.9"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -68,7 +87,7 @@ Thanks to all Devs who have contributed to this project!</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
+    <description>Play videos of different sports streaming sites. [CR]For more addons visit [COLOR blue]iwillfolo.com[/COLOR]</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
@@ -106,6 +125,24 @@ Thanks to all Devs who have contributed to this project!</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>ARB Repository</summary>
 		<description>Home of the ARB Rapier skin and ARB wizard</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.exodus" version="1.0.0" name="Exodus repository" provider-name="l*m*d*">
+	<extension point="xbmc.addon.repository" name="Exodus repository">
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://offshoregit.com/exodus/addons.xml</info>
+		<checksum>https://offshoregit.com/exodus/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/exodus/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus repository</summary>
+		<description lang="en">Exodus repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
