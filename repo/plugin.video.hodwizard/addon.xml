@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hodwizard" name="House Of Droids Wizard" version="2.0.2" provider-name="House Of Droids">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">House Of Droids Wizard</summary>
+    <description lang="en">Easy Install With House Of Droids Wizard</description>
+    <platform>all</platform>
+  </extension>
+</addon>
